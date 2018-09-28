@@ -1,3 +1,9 @@
+/* Erik Safford
+   Programming Assignment 4: Coding Standards & ESLint
+   September 2018
+   CS 320
+ */
+// *********************************************************************************************************************
 // isPrime returns true if num is prime, false if num is composite. Used in primeGen() and maxPrimeSum()
 
 function isPrime(num) {
