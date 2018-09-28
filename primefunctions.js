@@ -32,3 +32,25 @@ function primeGen(threshold) {
 
 const primeList = primeGen(10);
 console.log(primeList);
+
+// *********************************************************************************************************************
+// cumulativeSum() takes a list of numbers, and returns the cumulative sum of these numbers.
+
+function cumulativeSum(numList) {
+  // sumList will hold the calculated sums from numList
+  const sumList = [];
+  let sumCounter = 0;
+  for (let i = 0; i < numList.length; i++) {
+    sumCounter += numList[i];
+    sumList.push(sumCounter);
+  }
+  const str = 'cumulativeSum(';
+  const str1 = ') -> ';
+  console.log(str + numList + str1 + sumList);
+  return (sumList);
+}
+
+// Return a cumulative sum of the numbers
+const numList = [1, 2, 3, 4];
+const sumList = cumulativeSum(numList);
+console.log(sumList);
