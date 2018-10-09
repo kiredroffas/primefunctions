@@ -102,5 +102,5 @@ function maxPrimeSum(threshold) {
   return ([maxSum, maxRun]);
 }
 
-const maxSumRun = maxPrimeSum(1000);
+const maxSumRun = maxPrimeSum(100);
 console.log(maxSumRun);
