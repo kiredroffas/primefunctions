@@ -35,3 +35,21 @@ describe('cumulativeSum', function () {
     chai.expect(sumArray).to.have.same.members([10, 21, 33, 46, 60]);
   });
 });
+
+// ---------------------------------------------------------------------------------------------------------------------
+/* eslint-env mocha, chai */
+/* global chai, maxPrimeSum */
+
+// maxPrimeSum() test cases
+describe('maxPrimeSum', function () {
+  it('maxPrimeSum(100) = [41, 6]', function () {
+    let MPSarray = [];
+    MPSarray = maxPrimeSum(100);
+    chai.expect(MPSarray).to.have.same.members([41, 6]);
+  });
+  it('maxPrimeSum(1000) = [953, 21]', function () {
+    let MPSarray = [];
+    MPSarray = maxPrimeSum(1000);
+    chai.expect(MPSarray).to.have.same.members([953, 21]);
+  });
+});
