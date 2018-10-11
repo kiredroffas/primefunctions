@@ -1,5 +1,6 @@
 /* Erik Safford
    Programming Assignment 4: Coding Standards & ESLint
+   Version 1 - Original
    September 2018
    CS 320
  */
