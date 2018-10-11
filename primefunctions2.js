@@ -1,7 +1,7 @@
 /* Erik Safford
    Programming Assignment 4: Coding Standards & ESLint
    Version 2 - Optimized
-   September 2018
+   October 2018
    CS 320
  */
 // *********************************************************************************************************************
