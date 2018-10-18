@@ -11,13 +11,13 @@ describe('maxPrimeSum', function () {
   it('maxPrimeSum(10000) = [9521, 65]', function () {
     let MPSarray = [];
     MPSarray = maxPrimeSum(10000);
-    chai.expect(MPSarray).to.have.same.members([9521, 65]);
+    chai.expect(MPSarray).deep.equal([9521, 65]);
   });
   this.slow(0);
   this.timeout(550);
   it('maxPrimeSum(100000) = [92951, 183]', function () {
     let MPSarray = [];
     MPSarray = maxPrimeSum(100000);
-    chai.expect(MPSarray).to.have.same.members([92951, 183]);
+    chai.expect(MPSarray).deep.equal([92951, 183]);
   });
 });
